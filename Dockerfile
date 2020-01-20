@@ -1,6 +1,6 @@
 FROM debian:buster
 
-COPY LICENSE README.md /
+COPY README.md /
 
 RUN apt-get update \
   && apt-get install -y git-ftp \
